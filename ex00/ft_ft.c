@@ -6,16 +6,26 @@
 /*   By: nmokgawa <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/23 13:08:25 by nmokgawa          #+#    #+#             */
-/*   Updated: 2020/06/23 14:37:40 by nmokgawa         ###   ########.fr       */
+/*   Updated: 2020/06/24 16:04:24 by nmokgawa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <stdio.h>
 
 
 void  ft_ft( int *nbr)
 
 {	
 	*nbr = 42;
+
 }
+
+int main ()
+{
+	int a;
+	ft_ft(&a);
+	printf("%d",a);
+	return 0;
+}
+
 
